@@ -5,9 +5,9 @@ void ofApp::setup(){
 	beatrecognition = new BeatRecognitionClass("192.168.1.34", 65432); //init beatrecognition thread
 
 
-	//--test
+	//--test it
 	ALight light0 = { 0, "dmx1", "127.0.0.1", 65432, { {"red", 0, 255},{"blue", 1, 255},{"green", 0, 255},{"strobe", 1, 255}  } };
-	ALight light1 = { 1, "dmx2", "192.168.1.99" ,23, { {"red", 2, 255},{"blue", 3, 255} } };
+	//ALight light1 = { 1, "dmx2", "192.168.1.99" ,23, { {"red", 2, 255},{"blue", 3, 255} } };
 	//ALight light2 = { 2, "dmx3", "192.168.1.18" ,23, { {"violett", 4, 255},{"purple", 5, 255} } };
 	//ALight light3 = { 3, "dmx4", "127.0.0.1" ,65432, { {"violett", 4, 255},{"purple", 5, 255} } };
 
